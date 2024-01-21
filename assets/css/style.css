@@ -8,6 +8,12 @@ body {
   background: url("../img/bg-quote.jpg") center center;
   background-size: cover;
 }
+.decoration {
+  text-decoration: none;
+}
+.pergunta {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
 @media (max-width: 767px) {
   #home-quote .display-4 {
