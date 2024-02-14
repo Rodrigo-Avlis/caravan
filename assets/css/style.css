@@ -1,0 +1,37 @@
+body {
+  padding-top: 76px;
+}
+.icone {
+  height: 80px;
+}
+#home-quote {
+  background: url("../img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+.decoration {
+  text-decoration: none;
+}
+.pergunta {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.lista-plano li {
+  padding: 1rem;
+}
+.lista-plano li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btnblock {
+  max-width: 140px;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative !important;
+  }
+}
